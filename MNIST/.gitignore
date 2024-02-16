@@ -1,2 +1,3 @@
 myvenv
 .DS_Store
+MNIST/mnist_model.h5
