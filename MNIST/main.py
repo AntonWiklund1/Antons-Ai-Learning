@@ -35,3 +35,6 @@ model.fit(x_train, y_train, epochs=50, validation_split=0.1, callbacks=[early_st
 
 # Evaluate the model
 model.evaluate(x_test, y_test)
+
+# Save the model
+model.save('MNIST/mnist_model.h5')
